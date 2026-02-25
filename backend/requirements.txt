@@ -1,0 +1,9 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+google-generativeai==0.3.1
+python-multipart==0.0.6
+pydub==0.25.1
+speechrecognition==3.10.0
+syllables==1.0.4
+python-dotenv==1.0.0
+firebase-admin==6.3.0
