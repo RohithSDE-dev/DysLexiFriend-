@@ -1,10 +1,10 @@
 services:
   - type: web
     name: my-backend-service
-    env: python
-    runtime: python-3.12
+    env: python        # Use 'python' here, not 'python-3.12'
+    runtime: python    # Use 'python' here
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHON_VERSION
-        value: 3.12.2
+        value: 3.12.2  # Specify the version here
